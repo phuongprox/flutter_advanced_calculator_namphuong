@@ -11,74 +11,81 @@ For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
 
+***
+
 # 📱 flutter_calculator_namphuong
-## Ứng Dụng Máy Tính Cơ Bản với Giao Diện Dark Mode (Flutter/Dart)
+## Basic Calculator Application with Dark Mode Interface (Flutter/Dart)
 
-Dự án này là một ứng dụng máy tính di động được phát triển bằng Flutter và Dart, nổi bật với giao diện tối (Dark Mode) được thiết kế để mô phỏng chính xác giao diện của một ứng dụng máy tính hiện đại trên thiết bị di động.
+This project is a mobile calculator application developed using Flutter and Dart. It features a prominent **Dark Mode** interface designed to accurately emulate the appearance of a modern calculator application on mobile devices.
 
-## 📸 Ảnh Chụp Màn Hình Ứng Dụng
+---
+
+## 📸 Application Screenshots
 
 <div align="center">
 
-<img src="screenshot\monitor_main.png" alt="Ảnh chụp màn hình của ứng dụng máy tính với giao diện tối" width="100"/>
-<img src="screenshot\addition.png" alt="Phép toán cộng" width="100"/>
-<img src="screenshot\subtraction.png" alt="Phép toán trừ" width="100"/>
-<img src="screenshot\multiplication.png" alt="Phép toán nhân" width="100"/>
-<img src="screenshot\decimal_division.png" alt="Phép toán chia" width="100"/>
-<img src="screenshot\error.png" width="100"/>
-<img src="screenshot\negative_subtraction.png" width="100"/>
-<img src="screenshot\parentheses.png" width="100"/>
+<img src="screenshot\monitor_main.png" alt="Screenshot of the calculator application with dark mode interface" width="100"/>
+<img src="screenshot\addition.png" alt="Addition operation" width="100"/>
+<img src="screenshot\subtraction.png" alt="Subtraction operation" width="100"/>
+<img src="screenshot\multiplication.png" alt="Multiplication operation" width="100"/>
+<img src="screenshot\decimal_division.png" alt="Division operation" width="100"/>
+<img src="screenshot\error.png" alt="Error state" width="100"/>
+<img src="screenshot\negative_subtraction.png" alt="Negative subtraction operation" width="100"/>
+<img src="screenshot\parentheses.png" alt="Parentheses usage" width="100"/>
 </div>
 
-## ⚙️ Hướng Dẫn Cách Chạy Dự Án
+---
 
-Để khởi chạy dự án này trên máy tính của bạn, bạn cần cài đặt Flutter SDK.
+## ⚙️ How to Run the Project
 
-### Yêu Cầu Tiên Quyết
+To run this project on your machine, you need to have the Flutter SDK installed.
 
-* **Flutter SDK:** Phiên bản ổn định mới nhất.
-* **Thiết bị/Trình giả lập:** Thiết bị Android, iOS, hoặc trình duyệt web (Web) đã được cấu hình.
-* **IDE:** Visual Studio Code (VS Code) hoặc Android Studio.
+### Prerequisites
 
-### Các Bước Thực Hiện
+* **Flutter SDK:** The latest stable version.
+* **Device/Emulator:** A configured Android or iOS device/emulator, or web browser.
+* **IDE:** Visual Studio Code (VS Code) or Android Studio.
 
-1.  **Clone Repository:** Tải dự án về máy tính của bạn bằng cách sử dụng Git.
+### Step-by-Step Instructions
+
+1.  **Clone the Repository:** Download the project to your local machine using Git.
     ```bash
-    git clone: https://github.com/phuongprox/flutter_caculator_namphuong.git
+    git clone [https://github.com/phuongprox/flutter_caculator_namphuong.git](https://github.com/phuongprox/flutter_caculator_namphuong.git)
+    ```
 
-2.  **Di chuyển vào thư mục dự án:**
+2.  **Navigate to the Project Directory:**
     ```bash
     cd flutter_caculator_namphuong
     ```
 
-3.  **Tải các gói dependencies:**
+3.  **Get Dependencies:** Download the necessary packages.
     ```bash
     flutter pub get
     ```
 
-4.  **Chạy ứng dụng:** Khởi chạy ứng dụng trên thiết bị hoặc trình giả lập đã kết nối.
+4.  **Run the Application:** Launch the application on your connected device or emulator.
     ```bash
     flutter run
     ```
-    *Hoặc sử dụng tùy chọn **Run/Debug** trong IDE của bạn (VS Code/Android Studio).*
+    *Alternatively, use the **Run/Debug** option in your IDE (VS Code/Android Studio).*
 
 ---
 
-## ✨ Các Tính Năng Đã Thêm
+## ✨ Key Features
 
-Dự án được phát triển với trọng tâm là mô phỏng giao diện người dùng chính xác, đồng thời tích hợp đầy đủ các chức năng của một máy tính tiêu chuẩn.
+The project was developed focusing on accurate UI emulation while integrating all the essential functionalities of a standard calculator.
 
-### Tính Năng Giao Diện (UI)
+### User Interface (UI) Features
 
-* **Dark Mode Chuẩn:** Thiết kế giao diện tối với tông màu xám đậm và đen, mô phỏng chính xác hình ảnh mẫu.
-* **Bố cục 4x5:** Sử dụng bố cục lưới `GridView` để đảm bảo các nút được căn chỉnh hoàn hảo.
-* **Thiết kế Nút Độc Đáo:**
-    * Nút **'C'** (Clear) màu Đỏ Nâu.
-    * Các nút Toán tử cơ bản màu Xanh Rêu Đậm.
-    * Nút **'='** (Equals) màu Xanh Lá Cây nổi bật.
+* **Standard Dark Mode:** Dark-themed interface with deep gray and black tones, accurately mimicking the original image design.
+* **4x5 Layout:** Uses a `GridView` or `Column`/`Row` structure to ensure perfect alignment of the buttons.
+* **Distinct Button Design:**
+    * The **'C'** (Clear) button features a Dark Red color.
+    * Basic operator buttons (**+, -, ×, ÷**) use a Dark Olive Green tone.
+    * The **'='** (Equals) button is highlighted in a vibrant Dark Green.
 
-### Tính Năng Chức Năng (Logic)
+### Functional (Logic) Features
 
-* **Các Phép Tính Cơ Bản:** Hỗ trợ Cộng (`+`), Trừ (`-`), Nhân (`×`), Chia (`÷`).
-* **Chức năng Xóa:** Nút `C` (Clear) để xóa toàn bộ biểu thức.
-* **Chức năng Nâng Cao:** Hỗ trợ tính **Phần trăm** (`%`), **Đổi dấu** (`+/-`), và sử dụng **Dấu ngoặc đơn** (`()`).
+* **Basic Arithmetic Operations:** Supports Addition (`+`), Subtraction (`-`), Multiplication (`×`), and Division (`÷`).
+* **Clear Functionality:** The **'C'** button clears the entire expression.
+* **Advanced Features:** Supports **Percentage** (`%`) calculation, **Sign Change** (`+/-`), and **Parentheses** (`()`) usage.
