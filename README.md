@@ -20,7 +20,7 @@ Dự án này là một ứng dụng máy tính di động được phát triể
 
 | Giao diện chính |
 | :---: |
-| <img src="screenshot_main.png" alt="Ảnh chụp màn hình của ứng dụng máy tính với giao diện tối" width="300"/> |
+| <img src="monitor_main.png" alt="Ảnh chụp màn hình của ứng dụng máy tính với giao diện tối" width="300"/> |
 
 **Ghi chú:** *Hãy thay thế `screenshot.png` bằng tên file ảnh chụp màn hình thực tế của bạn và đảm bảo file ảnh đó nằm trong thư mục gốc của dự án.*
 
