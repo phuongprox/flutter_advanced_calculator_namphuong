@@ -20,7 +20,7 @@ Dự án này là một ứng dụng máy tính di động được phát triể
 
 | Giao diện chính |
 | :---: |
-| <img src=""D:\NguyenNamPhuong D22\Nam 4\dtn\flutter_caculator_nguyennamphuong\screenshot\monitor_main.png"" alt="Ảnh chụp màn hình của ứng dụng máy tính với giao diện tối" width="300"/> |
+| <img src="screenshot\monitor_main.png" alt="Ảnh chụp màn hình của ứng dụng máy tính với giao diện tối" width="300"/> |
 
 ## ⚙️ Hướng Dẫn Cách Chạy Dự Án
 
