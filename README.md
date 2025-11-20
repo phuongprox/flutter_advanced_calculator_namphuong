@@ -17,8 +17,10 @@ samples, guidance on mobile development, and a full API reference.
 Dự án này là một ứng dụng máy tính di động được phát triển bằng Flutter và Dart, nổi bật với giao diện tối (Dark Mode) được thiết kế để mô phỏng chính xác giao diện của một ứng dụng máy tính hiện đại trên thiết bị di động.
 
 ## 📸 Ảnh Chụp Màn Hình Ứng Dụng
+## 📸 Bộ Ảnh Chụp Màn Hình
 
-| Giao diện chính |
+<div align="center">
+   | Giao diện chính |
 | :---: |
 | <img src="screenshot\monitor_main.png" alt="Ảnh chụp màn hình của ứng dụng máy tính với giao diện tối" width="100"/> |
 | Phép cộng |
@@ -37,7 +39,9 @@ Dự án này là một ứng dụng máy tính di động được phát triể
 | :---: |
 | <img src="screenshot\error.png" width="100"/> |
 | <img src="screenshot\negative_subtraction.png" width="100"/> |
-| <img src="screenshot\parentheses.png" width="100"/> |
+| <img src="screenshot\parentheses.png" width="100"/> | 
+</div>
+
 ## ⚙️ Hướng Dẫn Cách Chạy Dự Án
 
 Để khởi chạy dự án này trên máy tính của bạn, bạn cần cài đặt Flutter SDK.
