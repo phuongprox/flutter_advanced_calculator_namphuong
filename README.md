@@ -20,11 +20,7 @@ Dự án này là một ứng dụng máy tính di động được phát triể
 
 | Giao diện chính |
 | :---: |
-| <img src="monitor_main.png" alt="Ảnh chụp màn hình của ứng dụng máy tính với giao diện tối" width="300"/> |
-
-**Ghi chú:** *Hãy thay thế `screenshot.png` bằng tên file ảnh chụp màn hình thực tế của bạn và đảm bảo file ảnh đó nằm trong thư mục gốc của dự án.*
-
----
+| <img src=""D:\NguyenNamPhuong D22\Nam 4\dtn\flutter_caculator_nguyennamphuong\screenshot\monitor_main.png"" alt="Ảnh chụp màn hình của ứng dụng máy tính với giao diện tối" width="300"/> |
 
 ## ⚙️ Hướng Dẫn Cách Chạy Dự Án
 
@@ -40,9 +36,7 @@ Dự án này là một ứng dụng máy tính di động được phát triể
 
 1.  **Clone Repository:** Tải dự án về máy tính của bạn bằng cách sử dụng Git.
     ```bash
-    git clone [https://github.com/](https://github.com/)[your-username]/flutter_caculator_namphuong.git
-    ```
-    *(Thay thế `[your-username]` bằng tên người dùng GitHub của bạn)*
+    git clone: https://github.com/phuongprox/flutter_caculator_namphuong.git
 
 2.  **Di chuyển vào thư mục dự án:**
     ```bash
