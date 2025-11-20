@@ -17,29 +17,17 @@ samples, guidance on mobile development, and a full API reference.
 Dự án này là một ứng dụng máy tính di động được phát triển bằng Flutter và Dart, nổi bật với giao diện tối (Dark Mode) được thiết kế để mô phỏng chính xác giao diện của một ứng dụng máy tính hiện đại trên thiết bị di động.
 
 ## 📸 Ảnh Chụp Màn Hình Ứng Dụng
-## 📸 Bộ Ảnh Chụp Màn Hình
 
 <div align="center">
-   | Giao diện chính |
-| :---: |
-| <img src="screenshot\monitor_main.png" alt="Ảnh chụp màn hình của ứng dụng máy tính với giao diện tối" width="100"/> |
-| Phép cộng |
-| :---: |
-| <img src="screenshot\addition.png" width="100"/> |
-| Phép trừ |
-| :---: |
-| <img src="screenshot\subtraction.png" width="100"/> |
-| Phép nhân |
-| :---: |
-| <img src="screenshot\multiplication.png" width="100"/> |
-| Phép chia |
-| :---: |
-| <img src="screenshot\decimal_division.png" width="100"/> |
-| Các phép tính khác |
-| :---: |
-| <img src="screenshot\error.png" width="100"/> |
-| <img src="screenshot\negative_subtraction.png" width="100"/> |
-| <img src="screenshot\parentheses.png" width="100"/> | 
+
+<img src="screenshot\monitor_main.png" alt="Ảnh chụp màn hình của ứng dụng máy tính với giao diện tối" width="100"/>
+<img src="screenshot\addition.png" alt="Phép toán cộng" width="100"/>
+<img src="screenshot\subtraction.png" alt="Phép toán trừ" width="100"/>
+<img src="screenshot\multiplication.png" alt="Phép toán nhân" width="100"/>
+<img src="screenshot\decimal_division.png" alt="Phép toán chia" width="100"/>
+<img src="screenshot\error.png" width="100"/>
+<img src="screenshot\negative_subtraction.png" width="100"/>
+<img src="screenshot\parentheses.png" width="100"/>
 </div>
 
 ## ⚙️ Hướng Dẫn Cách Chạy Dự Án
