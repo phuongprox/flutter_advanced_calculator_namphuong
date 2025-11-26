@@ -89,3 +89,20 @@ The project was developed focusing on accurate UI emulation while integrating al
 * **Basic Arithmetic Operations:** Supports Addition (`+`), Subtraction (`-`), Multiplication (`×`), and Division (`÷`).
 * **Clear Functionality:** The **'C'** button clears the entire expression.
 * **Advanced Features:** Supports **Percentage** (`%`) calculation, **Sign Change** (`+/-`), and **Parentheses** (`()`) usage.
+
+🚀 Advanced Features Update
+This project has been upgraded from a basic calculator to a professional scientific tool. The core changes focus on introducing advanced mathematical logic, complex state management, and full UI responsiveness.
+
+### Functionality & Logic Upgrades
+The following features were successfully added and tested:
+* Mode Switching: Introduced full support for Scientific Mode with a dynamic 6-column layout.
+* Scientific Functions: Implemented robust handling for trigonometric ($\sin$, $\cos$, $\tan$), logarithmic ($\ln$, $\log$), power, and root functions, including support for constants ($\pi$, $e$).
+* Expression Parsing: The calculation core was refactored to handle complex, multi-level expressions, ensuring correct operator precedence (PEMDAS) and parenthesis nesting.
+* Angle Mode: Added user-controlled switching between Degrees (DEG) and Radians (RAD) for accurate scientific calculations.
+* Memory Functions: Full implementation of M+, M-, MR, and MC memory management capabilities.
+### UI/UX and System Architecture
+* Persistent History: Calculation history is now stored and retrieved using shared_preferences, persisting the last 50 calculations across sessions.
+* Provider State Management: The entire application logic was migrated to the Provider pattern, separating concerns into dedicated CalculatorProvider, ThemeProvider, and HistoryProvider services.
+* Dynamic Theming: The application now supports persistent Dark/Light Theme switching based on user settings.
+* Responsive UI Refactoring: The button grid logic was refactored to dynamically switch and correctly render both the 4-column (Basic) and the complex 6-column (Scientific) layouts without visual overlap or shifting.
+* Comprehensive Testing: Implemented extensive Unit Tests and Integration Tests to guarantee calculation accuracy and system stability.
