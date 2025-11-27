@@ -48,6 +48,31 @@ This project is a mobile calculator application developed using Flutter and Dart
 
 To run this project on your machine, you need to have the Flutter SDK installed.
 
+
+### Folder structure
+* models/
+* **angle_mode.dart
+* **button_type.dart
+* **calculator_mode.dart
+* **calculator_settings.dart
+* providers/
+* **calculator_provider_test.dart
+* **calculator_provider.dart
+* **theme_provider.dart
+* **history_provider.dart
+* **settings_provider.dart
+* screens/
+* **calculator_screen.dart
+* **history_screen.dart
+* **settings_screen.dart
+* widgets/
+* **display_area.dart
+* **button_grid.dart
+* **calculator_button.dart
+* **mode_selector.dart
+* services/
+* **storage_service.dart
+* main.dart
 ### Prerequisites
 
 * **Flutter SDK:** The latest stable version.
