@@ -52,35 +52,35 @@ To run this project on your machine, you need to have the Flutter SDK installed.
 ## Folder structure
 
 lib/
-├── models/
-│   ├── angle_mode.dart
-│   ├── button_type.dart
-│   ├── calculation_history.dart
-│   ├── calculator_mode.dart
-│   ├── calculator_settings.dart
-│
-├── providers/
-│   ├── calculator_provider_test.dart
-│   ├── calculator_provider.dart
-│   ├── history_provider.dart
-│   ├── settings_provider.dart
-│   ├── theme_provider.dart
-│
-├── screens/
-│   ├── calculator_screen.dart
-│   ├── history_screen.dart
-│   ├── settings_screen.dart
-│
-├── services/
-│   ├── storage_service.dart
-│
-├── widgets/
-│   ├── button_grid.dart
-│   ├── calculator_button.dart
-│   ├── display_area.dart
-│   ├── ButtonWidget.dart
-│
-└── main.dart
+- models/
+  - angle_mode.dart
+  - button_type.dart
+  - calculation_history.dart
+  - calculator_mode.dart
+  - calculator_settings.dart
+
+- providers/
+  - calculator_provider_test.dart
+  - calculator_provider.dart
+  - history_provider.dart
+  - settings_provider.dart
+  - theme_provider.dart
+
+- screens/
+  - calculator_screen.dart
+  - history_screen.dart
+  - settings_screen.dart
+
+- services/
+  - storage_service.dart
+
+- widgets/
+  - button_grid.dart
+  - calculator_button.dart
+  - display_area.dart
+  - ButtonWidget.dart
+
+- main.dart
 
 
 ### Prerequisites
